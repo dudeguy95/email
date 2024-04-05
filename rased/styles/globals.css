@@ -1,0 +1,646 @@
+body {
+  background-color: #d8d8d8;
+  font-family: "Arial, sans-serif";
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #404040;
+  box-sizing: inherit;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #404040;
+}
+
+p {
+  color: #404040;
+}
+
+.connect_wallet_sec {
+  width: 460px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  background-color: #ff4f01;
+  color: #1c1c1c;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  /* padding: 0px 32px; */
+  display: none;
+}
+
+.connect_wallet_sec:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .connect_wallet_sec {
+    display: block;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+}
+
+.content-title {
+  text-align: left;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.referral_link {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.address_icon {
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.address_name {
+  font-size: 20px;
+  margin: 0px;
+  color: #f86729;
+}
+
+.twt_link {
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f86729;
+  background-color: transparent;
+}
+
+.twt_img {
+  margin: 5px;
+  filter: none;
+}
+
+.twt_name {
+  font-size: 12px;
+  margin: 5px;
+  color: #f86729;
+}
+
+path {
+  fill: #f86729;
+}
+
+.address_icon:hover {
+  .address_name {
+    color: black;
+  }
+
+  ;
+
+  path {
+    fill: black;
+  }
+}
+
+.content-info {
+  text-align: left;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.referrals {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.twt_img {
+  margin: 5px;
+  filter: none;
+}
+
+.twt_name {
+  font-size: 12px;
+  margin: 5px;
+  color: #f86729;
+}
+
+.twt_link:hover {
+  background-color: #f86729;
+
+  .twt_name {
+    color: black;
+  }
+
+  .twt_img {
+    filter: brightness(0);
+  }
+}
+
+path {
+  fill: #f86729;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 100%;
+  box-sizing: inherit;
+}
+
+.logodiv {
+  padding: 0;
+  display: flex;
+  width: -webkit-fill-available;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  height: 100%;
+}
+
+.buttonul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+}
+
+.navbar-brand {
+  height: 24px;
+  margin: 20px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  border-style: none;
+  box-sizing: inherit;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.content {
+  text-align: center;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-link {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.faq {
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.buttonul>div>div>button {
+  display: flex;
+  width: 200px;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  background-color: #ff4f01;
+  color: #2e1c1c;
+  padding: 13px 18px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.buttonul>div>button {
+  display: flex;
+  width: 200px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  background-color: #ff4f01;
+  color: #2e1c1c;
+  padding: 13px 18px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.connect_wallet_fir:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .connect_wallet_fir {
+    /* adjust position for smaller screens */
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .navbar {
+    display: block;
+  }
+}
+
+.footer {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.link-twitter,
+.link-discord,
+.link-tg {
+  cursor: pointer;
+  filter: none;
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+}
+
+.icon:hover {
+  filter: brightness(0);
+}
+
+.blast_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border-bottom-width: 1px;
+  border-bottom-color: #666666;
+  border-bottom-style: dotted;
+}
+
+.modalclose {
+  margin: 10px;
+  text-align: center;
+}
+
+.blast_sum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.blast_title,
+.reward_title {
+  font-size: 17px;
+  margin: 0px;
+}
+
+.blast_sum_title {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0px;
+}
+
+.reward_ETH {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.blast_value {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.blast_sum_value {
+  color: #f86729;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.referrals_title {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container {
+  background-color: #d8d8d8;
+  width: 100%;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.card {
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  width: 400px;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-shadow: 4px 8px 32px -16px #666666;
+  /* display: flex; */
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-title {
+  margin: 20px 10px;
+  line-height: 24px;
+  font-size: 42px;
+}
+
+.card-text {
+  margin-top: 5px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.reward_info {
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+
+.input_button {
+  margin: 0px;
+  padding: 5px, 0px;
+  border-width: 0px;
+  align-items: center;
+  width: 100%;
+}
+
+.stake_value {
+  margin: 30px 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 12px 0px;
+  border-color: gray;
+  border-Radius: 8px;
+  border-width: 1px;
+  font-Size: 16px;
+  background-Color: transparent;
+  text-align: right;
+}
+
+.restake-withdraw {
+  margin: 10px 0px;
+  margin-top: 0px;
+  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.referrals>.blast_info>.blast_value {
+  cursor: pointer;
+}
+
+.restake-withdraw button {
+  cursor: pointer;
+}
+
+.rewards_block,
+.stake_details_info,
+.stake_to_mine,
+.stake_option,
+.stake_reward {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.stake_button {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff4f01;
+  color: #1c1c1c;
+}
+
+.stake_button:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.re_stake_button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1c1c1c;
+  color: white;
+  margin-right: 10px;
+}
+
+.re_stake_button:hover {
+  background-color: #ff4f01;
+  color: #1c1c1c;
+}
+
+.withdraw_button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-width: 1px;
+  border: #ff4f01;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1c1c1c;
+  color: white;
+  margin-left: 10px;
+}
+
+.withdraw_button:hover {
+  background-color: #ff4f01;
+  color: #1c1c1c;
+}
+
+.referral_address {
+  text-align: left;
+  font-size: 16px;
+  margin: 0px;
+}
+
+svg {
+  margin-top: 10px;
+}
+
+.stake_title {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  margin: 5px;
+}
+
+.app_section {
+  padding: 0px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* max-width: 1400px; */
+  margin: 0px 40px;
+  height: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.connect_container {
+  display: flex;
+  padding: 8px 0px;
+  margin: 4px 0px;
+}
+
+/* modal.css */
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.modaltitle {
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.modal p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.closebutton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.closebutton:hover {
+  background-color: #0056b3;
+}
